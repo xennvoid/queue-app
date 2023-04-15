@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="queue">
+        <form onsubmit="event.preventDefault()">
+            <input class="queue__input" type="text">
+            <button class="queue__add">Add</button>
+            <button class="queue__remove">Remove</button>
+            <p class="queue__error"></p>
+        </form>
+        <div class="queue__items"></div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
